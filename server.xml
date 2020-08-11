@@ -9,13 +9,8 @@
         <feature>appSecurity-3.0</feature>
         <feature>socialLogin-1.0</feature>
     </featureManager>
-
-    <authFilter id="okdLoginFilter">
-		<requestUrl id="metricsUrls" urlPattern="/metrics" matchType="contains" />
-	</authFilter>
-    <okdServiceLogin id="myOkdServiceLogin"
-        authFilterRef="okdLoginFilter"
-    />
+	
+    <okdServiceLogin/>
 
     <!--<quickStartSecurity userName="kiali1" userPassword="kiali2"/> -->
 
