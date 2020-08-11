@@ -12,8 +12,6 @@
 	
     <okdServiceLogin/>
 
-    <!--<quickStartSecurity userName="kiali1" userPassword="kiali2"/> -->
-
     <!--access log -->
     <httpEndpoint id="defaultHttpEndpoint" host="*" httpPort="9080" httpsPort="9443">
     	<accessLogging
