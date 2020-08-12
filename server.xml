@@ -10,7 +10,7 @@
         <feature>socialLogin-1.0</feature>
     </featureManager>
 	
-    <okdServiceLogin/>
+    <okdServiceLogin userValidationApi="https://api.kiali.os.fyre.ibm.com:6443/apis/user.openshift.io/v1/users/~" />
 
     <!--access log -->
     <httpEndpoint id="defaultHttpEndpoint" host="*" httpPort="9080" httpsPort="9443">
