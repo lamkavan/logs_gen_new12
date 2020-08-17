@@ -13,9 +13,9 @@
     <okdServiceLogin userValidationApi="https://api.kiali.os.fyre.ibm.com:6443/apis/user.openshift.io/v1/users/~" />
     
     <okdServiceLogin userValidationApi="https://api.kiali.os.fyre.ibm.com:6443/apis/user.openshift.io/v1/users/~" realmName="okd123"/>
-    <administrator-role>
+    <reader-role>
          <group-access-id>group:okd123/testing1</group-access-id>
-    </administrator-role>
+    </reader-role>
 
     <!--access log -->
     <httpEndpoint id="defaultHttpEndpoint" host="*" httpPort="9080" httpsPort="9443">
